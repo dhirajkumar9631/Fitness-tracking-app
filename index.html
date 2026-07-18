@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALESTRA - Elevate Your Potential</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">P<span class="highlight">A</span>LESTR<span class="highlight">A</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="fitness.html">Fitness</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="yoga.html">Yoga</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="#" id="downloadBtn">Download</a></li>
+            <li><a href="#" id="navLoginBtn">Login</a></li>
+            <li><a href="#" id="navSignupBtn">Sign Up</a></li>
+            <li class="user-menu">
+                <a href="#" id="userBtn">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Account</span>
+                </a>
+                <div class="user-dropdown">
+                    <div class="social-login-options">
+                        <a href="#" id="googleLoginBtn" class="social-btn google-btn">
+                            <i class="fab fa-google"></i> Continue with Google
+                        </a>
+                        <a href="#" id="appleLoginBtn" class="social-btn apple-btn">
+                            <i class="fab fa-apple"></i> Continue with Apple
+                        </a>
+                        <a href="#" id="phoneLoginBtn" class="social-btn phone-btn">
+                            <i class="fas fa-mobile-alt"></i> Use Phone Number
+                        </a>
+                    </div>
+                    <div class="divider"><span>or</span></div>
+                    <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Email Login</a>
+                    <a href="#" id="signupBtn"><i class="fas fa-user-plus"></i> Email Sign Up</a>
+                    <a href="#" id="profileBtn" style="display: none;"><i class="fas fa-user"></i> Profile</a>
+                    <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Life</h1>
+            <p>Your journey to a healthier lifestyle starts here</p>
+            <div class="cta-buttons">
+                <a href="workouts.html" class="btn primary">Start Your Journey</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="quick-stats">
+        <div class="stat-item">
+            <i class="fas fa-users"></i>
+            <h3>10K+</h3>
+            <p>Active Users</p>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-dumbbell"></i>
+            <h3>500+</h3>
+            <p>Workout Plans</p>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-heart"></i>
+            <h3>98%</h3>
+            <p>Success Rate</p>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-award"></i>
+            <h3>50+</h3>
+            <p>Expert Trainers</p>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>Why Choose Palestra?</h2>
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Track Anywhere</h3>
+                <p>Access your workouts and track progress from any device, anytime.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Monitor Progress</h3>
+                <p>Visualize your fitness journey with detailed analytics and insights.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Community Support</h3>
+                <p>Join a community of fitness enthusiasts and share your success.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="programs-preview">
+        <h2>Featured Programs</h2>
+        <div class="program-cards">
+            <div class="program-preview-card">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Fitness Program">
+                <div class="card-content">
+                    <h3>Fitness Training</h3>
+                    <p>Comprehensive fitness programs for all levels</p>
+                    <a href="fitness.html" class="btn primary">Explore</a>
+                </div>
+            </div>
+            <div class="program-preview-card">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Yoga Program">
+                <div class="card-content">
+                    <h3>Yoga Classes</h3>
+                    <p>Find peace and strength through yoga</p>
+                    <a href="yoga.html" class="btn primary">Explore</a>
+                </div>
+            </div>
+            <div class="program-preview-card">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Nutrition Program">
+                <div class="card-content">
+                    <h3>Nutrition Plans</h3>
+                    <p>Personalized nutrition guidance for your goals</p>
+                    <a href="nutrition.html" class="btn primary">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Transform Your Life?</h2>
+            <p>Join thousands of others who have already started their fitness journey with us.</p>
+            <a href="workouts.html" class="cta-button">Get Started Now</a>
+        </div>
+    </section>
+
+    <div id="downloadModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Download Palestra App</h2>
+            <div class="download-options">
+                <a href="#" class="download-option android">
+                    <i class="fab fa-android"></i>
+                    <div class="option-text">
+                        <h3>Android App</h3>
+                        <p>Download for Android devices</p>
+                    </div>
+                </a>
+                <a href="#" class="download-option ios">
+                    <i class="fab fa-apple"></i>
+                    <div class="option-text">
+                        <h3>iOS App</h3>
+                        <p>Download for iPhone/iPad</p>
+                    </div>
+                </a>
+                <div class="qr-section">
+                    <div class="qr-code">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://palestra-app.com/download" alt="QR Code">
+                    </div>
+                    <p>Scan to download</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PALESTRA</h3>
+                <p>Where ancient wisdom meets modern fitness. Transform your body, elevate your mind.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="fitness.html">Fitness</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="yoga.html">Yoga</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PALESTRA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- AI Diet Assistant: Scoped styles -->
+    <style>
+        /* Scoped to #aiDietAssistant to avoid bleeding into site styles */
+        #aiDietAssistant-toggle {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: none;
+            background: #111;
+            color: #fff;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+        #aiDietAssistant {
+            position: fixed;
+            right: 20px;
+            bottom: 90px;
+            width: 360px;
+            max-height: 80vh;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+            overflow: hidden;
+            display: none;
+            z-index: 1000;
+            font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        }
+        #aiDietAssistant.open { display: flex; flex-direction: column; }
+        #aiDietAssistant .ai-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: #111;
+            color: #fff;
+        }
+        #aiDietAssistant .ai-header h3 { margin: 0; font-size: 16px; font-weight: 700; }
+        #aiDietAssistant .ai-close { background: transparent; color: #fff; border: none; font-size: 18px; cursor: pointer; }
+        #aiDietAssistant .ai-body { padding: 14px; overflow-y: auto; }
+        #aiDietAssistant .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        #aiDietAssistant label { font-size: 12px; font-weight: 600; color: #333; display: block; margin-bottom: 6px; }
+        #aiDietAssistant input, #aiDietAssistant select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e3e3e3;
+            border-radius: 8px;
+            font-size: 13px;
+            outline: none;
+        }
+        #aiDietAssistant .row { display: flex; gap: 10px; }
+        #aiDietAssistant .row > div { flex: 1; }
+        #aiDietAssistant .ai-actions { margin-top: 12px; display: flex; gap: 10px; }
+        #aiDietAssistant .btn-primary {
+            flex: 1;
+            background: #111;
+            color: #fff;
+            border: none;
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        #aiDietAssistant .btn-secondary {
+            flex: 1;
+            background: #f4f4f4;
+            color: #111;
+            border: 1px solid #e3e3e3;
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        #aiDietAssistant .ai-results {
+            margin-top: 12px;
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 13px;
+            color: #222;
+        }
+        #aiDietAssistant .metric { display: flex; justify-content: space-between; margin: 4px 0; }
+        #aiDietAssistant .metric span:first-child { color: #666; }
+        #aiDietAssistant .divider { height: 1px; background: #eee; margin: 8px 0; }
+        @media (max-width: 420px) {
+            #aiDietAssistant { right: 12px; left: 12px; width: auto; }
+        }
+    </style>
+
+    <!-- AI Diet Assistant: UI -->
+    <button id="aiDietAssistant-toggle" aria-label="Open AI Diet Assistant">
+        <i class="fas fa-robot"></i>
+    </button>
+    <div id="aiDietAssistant" role="dialog" aria-modal="true" aria-labelledby="aiDietAssistantTitle">
+        <div class="ai-header">
+            <h3 id="aiDietAssistantTitle">AI Diet Assistant</h3>
+            <button class="ai-close" aria-label="Close">&times;</button>
+        </div>
+        <div class="ai-body">
+            <div class="grid">
+                <div>
+                    <label for="ai-age">Age (years)</label>
+                    <input type="number" id="ai-age" min="10" max="100" placeholder="28">
+                </div>
+                <div>
+                    <label for="ai-sex">Sex</label>
+                    <select id="ai-sex">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ai-height">Height (cm)</label>
+                    <input type="number" id="ai-height" min="120" max="230" placeholder="175">
+                </div>
+                <div>
+                    <label for="ai-weight">Weight (kg)</label>
+                    <input type="number" id="ai-weight" min="30" max="250" step="0.1" placeholder="72">
+                </div>
+                <div>
+                    <label for="ai-waist">Waist (cm) <span style="color:#999">(optional)</span></label>
+                    <input type="number" id="ai-waist" min="40" max="200" step="0.1" placeholder="80">
+                </div>
+                <div>
+                    <label for="ai-hip">Hip (cm) <span style="color:#999">(opt.)</span></label>
+                    <input type="number" id="ai-hip" min="40" max="200" step="0.1" placeholder="95">
+                </div>
+                <div>
+                    <label for="ai-neck">Neck (cm) <span style="color:#999">(opt.)</span></label>
+                    <input type="number" id="ai-neck" min="20" max="60" step="0.1" placeholder="38">
+                </div>
+                <div>
+                    <label for="ai-activity">Activity level</label>
+                    <select id="ai-activity">
+                        <option value="1.2">Sedentary</option>
+                        <option value="1.375">Lightly active</option>
+                        <option value="1.55">Moderately active</option>
+                        <option value="1.725">Very active</option>
+                        <option value="1.9">Athlete</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ai-goal">Goal</label>
+                    <select id="ai-goal">
+                        <option value="lose">Lose fat</option>
+                        <option value="maintain">Maintain</option>
+                        <option value="gain">Build muscle</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ai-actions">
+                <button class="btn-secondary" id="ai-fill-demo">Demo</button>
+                <button class="btn-primary" id="ai-generate">Scan & Generate Plan</button>
+            </div>
+            <div class="ai-results" id="ai-results" style="display:none"></div>
+        </div>
+    </div>
+
+    <!-- AI Diet Assistant: Logic -->
+    <script>
+        (function(){
+            const $ = (sel) => document.querySelector(sel);
+            const toggleBtn = $('#aiDietAssistant-toggle');
+            const panel = $('#aiDietAssistant');
+            const closeBtn = panel.querySelector('.ai-close');
+            const results = $('#ai-results');
+            const demoBtn = $('#ai-fill-demo');
+            const genBtn = $('#ai-generate');
+
+            function openPanel(){ panel.classList.add('open'); }
+            function closePanel(){ panel.classList.remove('open'); }
+
+            toggleBtn.addEventListener('click', () => {
+                if (panel.classList.contains('open')) closePanel(); else openPanel();
+            });
+            closeBtn.addEventListener('click', closePanel);
+
+            demoBtn.addEventListener('click', () => {
+                $('#ai-age').value = 28;
+                $('#ai-sex').value = 'male';
+                $('#ai-height').value = 177;
+                $('#ai-weight').value = 76;
+                $('#ai-waist').value = 83;
+                $('#ai-hip').value = 96;
+                $('#ai-neck').value = 38;
+                $('#ai-activity').value = '1.55';
+                $('#ai-goal').value = 'lose';
+            });
+
+            function clamp(n, min, max){ return Math.min(Math.max(n, min), max); }
+            function toNumber(v){ const n = parseFloat(v); return Number.isFinite(n) ? n : NaN; }
+
+            function calcBMI(kg, cm){ if(!kg||!cm) return NaN; const m = cm/100; return kg/(m*m); }
+            function classifyBMI(bmi){
+                if(!Number.isFinite(bmi)) return 'Unknown';
+                if(bmi < 18.5) return 'Underweight';
+                if(bmi < 25) return 'Normal';
+                if(bmi < 30) return 'Overweight';
+                return 'Obese';
+            }
+            function calcWHtR(waistCm, heightCm){ if(!waistCm||!heightCm) return NaN; return waistCm/heightCm; }
+            function classifyWHtR(w){
+                if(!Number.isFinite(w)) return 'Unknown';
+                if(w < 0.4) return 'Very lean';
+                if(w < 0.5) return 'Healthy';
+                if(w < 0.6) return 'Increased risk';
+                return 'High risk';
+            }
+            function navyBodyFat(sex, heightCm, neckCm, waistCm, hipCm){
+                // Returns % or NaN if insufficient data
+                if(!heightCm || !neckCm || !waistCm) return NaN;
+                const log10 = (x) => Math.log10 ? Math.log10(x) : (Math.log(x)/Math.LN10);
+                const h = heightCm, n = neckCm, w = waistCm, hip = hipCm;
+                if(sex === 'male'){
+                    const denom = 1.0324 - 0.19077*log10(w - n) + 0.15456*log10(h);
+                    if(denom <= 0) return NaN;
+                    return clamp(495/denom - 450, 3, 60);
+                } else {
+                    if(!hip) return NaN;
+                    const denom = 1.29579 - 0.35004*log10(w + hip - n) + 0.22100*log10(h);
+                    if(denom <= 0) return NaN;
+                    return clamp(495/denom - 450, 8, 60);
+                }
+            }
+            function estimateBodyFatFromBMI(bmi, age, sex){
+                if(!Number.isFinite(bmi) || !age || !sex) return NaN;
+                // Deurenberg formula
+                const s = (sex === 'male') ? 1 : 0;
+                const bf = 1.20*bmi + 0.23*age - 10.8*s - 5.4;
+                return clamp(bf, 3, 60);
+            }
+            function mifflinStJeor(sex, kg, cm, age){
+                if(!sex||!kg||!cm||!age) return NaN;
+                if(sex === 'male') return 10*kg + 6.25*cm - 5*age + 5;
+                return 10*kg + 6.25*cm - 5*age - 161;
+            }
+            function round(n, d=0){ const p = Math.pow(10,d); return Math.round(n*p)/p; }
+
+            function macroPlan(targetCalories, kg, goal){
+                const proteinGPerKg = goal === 'gain' ? 2.0 : 1.8;
+                const proteinG = round(proteinGPerKg * kg, 0);
+                const proteinKcal = proteinG * 4;
+                const fatKcal = Math.max(0.25 * targetCalories, 0.7 * kg * 9); // ensure minimum ~0.7g/kg
+                const fatG = round(fatKcal / 9, 0);
+                const remainingKcal = Math.max(targetCalories - proteinKcal - fatKcal, targetCalories*0.2);
+                const carbsG = round(remainingKcal / 4, 0);
+                return { proteinG, fatG, carbsG };
+            }
+
+            function describeBodyType(bmi, whtr, bf){
+                const bmiClass = classifyBMI(bmi);
+                const whtrClass = classifyWHtR(whtr);
+                if(Number.isFinite(bf)){
+                    if(bf < 10) return `${bmiClass} • Very lean`;
+                    if(bf < 20) return `${bmiClass} • Athletic`;
+                    if(bf < 25) return `${bmiClass} • Fit`;
+                    if(bf < 32) return `${bmiClass} • Average`;
+                    return `${bmiClass} • Higher body fat`;
+                }
+                return `${bmiClass} • ${whtrClass}`;
+            }
+
+            function generatePlan(){
+                const age = toNumber($('#ai-age').value);
+                const sex = $('#ai-sex').value;
+                const height = toNumber($('#ai-height').value);
+                const weight = toNumber($('#ai-weight').value);
+                const waist = toNumber($('#ai-waist').value);
+                const hip = toNumber($('#ai-hip').value);
+                const neck = toNumber($('#ai-neck').value);
+                const activity = parseFloat($('#ai-activity').value || '1.2');
+                const goal = $('#ai-goal').value;
+
+                if(!age || !height || !weight){
+                    results.style.display = 'block';
+                    results.innerHTML = '<div style="color:#b00020">Please enter age, height, and weight.</div>';
+                    return;
+                }
+
+                const bmi = calcBMI(weight, height);
+                const whtr = calcWHtR(waist, height);
+                let bf = navyBodyFat(sex, height, neck, waist, hip);
+                if(!Number.isFinite(bf)) bf = estimateBodyFatFromBMI(bmi, age, sex);
+
+                const bmr = mifflinStJeor(sex, weight, height, age);
+                const tdee = bmr * activity;
+                let targetCalories = tdee;
+                if(goal === 'lose') targetCalories = tdee * 0.85;
+                if(goal === 'gain') targetCalories = tdee * 1.15;
+                targetCalories = Math.max(1200, targetCalories);
+
+                const macros = macroPlan(targetCalories, weight, goal);
+                const bodyTypeText = describeBodyType(bmi, whtr, bf);
+
+                const recs = [];
+                if(goal === 'lose'){
+                    recs.push('High-protein, moderate-carb, high-volume veggies');
+                    recs.push('Focus on minimally processed foods, 25-35g fiber/day');
+                    recs.push('Protein each meal: eggs, fish, lean meats, tofu, Greek yogurt');
+                } else if(goal === 'maintain'){
+                    recs.push('Balanced plate: 30% protein, 30% fat, 40% carbs');
+                    recs.push('Prioritize whole grains, fruits/veg, and quality fats');
+                } else {
+                    recs.push('Slight surplus, high-protein, sufficient carbs for training');
+                    recs.push('3-5 meals/day; include pre/post-workout carbs + protein');
+                }
+
+                const sample = [
+                    'Breakfast: Omelet or Greek yogurt + fruit + oats',
+                    'Lunch: Chicken/tofu + quinoa/rice + salad/veg',
+                    'Snack: Protein shake or cottage cheese + nuts',
+                    'Dinner: Fish/legumes + potatoes/pasta + vegetables'
+                ];
+
+                results.style.display = 'block';
+                results.innerHTML = `
+                    <div class="metric"><span>BMI</span><span>${round(bmi,1)} (${classifyBMI(bmi)})</span></div>
+                    <div class="metric"><span>WHtR</span><span>${Number.isFinite(whtr)?round(whtr,2):'—'}</span></div>
+                    <div class="metric"><span>Est. body fat</span><span>${Number.isFinite(bf)?round(bf,1)+'%':'—'}</span></div>
+                    <div class="divider"></div>
+                    <div class="metric"><span>BMR</span><span>${Math.round(bmr)} kcal</span></div>
+                    <div class="metric"><span>TDEE</span><span>${Math.round(tdee)} kcal</span></div>
+                    <div class="metric"><span>Target kcal (${goal})</span><span>${Math.round(targetCalories)} kcal</span></div>
+                    <div class="divider"></div>
+                    <div class="metric"><span>Body type</span><span>${bodyTypeText}</span></div>
+                    <div class="divider"></div>
+                    <div class="metric"><span>Protein</span><span>${macros.proteinG} g</span></div>
+                    <div class="metric"><span>Carbs</span><span>${macros.carbsG} g</span></div>
+                    <div class="metric"><span>Fat</span><span>${macros.fatG} g</span></div>
+                    <div class="divider"></div>
+                    <div><strong>Recommendations</strong><br>- ${recs.join('<br>- ')}</div>
+                    <div class="divider"></div>
+                    <div><strong>Sample day</strong><br>- ${sample.join('<br>- ')}</div>
+                `;
+            }
+
+            genBtn.addEventListener('click', generatePlan);
+        })();
+    </script>
+
+    <!-- Auth Modals (Login/Signup) using existing modal styles -->
+    <div id="authLoginModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-modal" data-close="#authLoginModal">&times;</span>
+            <h2>Login</h2>
+            <div class="auth-form">
+                <label>Email</label>
+                <input type="email" id="loginEmail" placeholder="you@example.com">
+                <label>Password</label>
+                <input type="password" id="loginPassword" placeholder="••••••••">
+                <button id="loginSubmit" class="btn primary" style="margin-top:12px;">Login</button>
+                <div id="loginError" style="color:#b00020; margin-top:8px; display:none;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="authSignupModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-modal" data-close="#authSignupModal">&times;</span>
+            <h2>Sign Up</h2>
+            <div class="auth-form">
+                <label>Name</label>
+                <input type="text" id="signupName" placeholder="Your name">
+                <label>Email</label>
+                <input type="email" id="signupEmail" placeholder="you@example.com">
+                <label>Password</label>
+                <input type="password" id="signupPassword" placeholder="At least 6 characters">
+                <button id="signupSubmit" class="btn primary" style="margin-top:12px;">Create Account</button>
+                <div id="signupError" style="color:#b00020; margin-top:8px; display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Logic: backend (Express) based auth -->
+    <script>
+        (function(){
+            const qs = (s) => document.querySelector(s);
+            const qsa = (s) => Array.from(document.querySelectorAll(s));
+            const API_BASE = 'http://localhost:3000/api';
+
+            function setAuthUser(user){ localStorage.setItem('palestra_auth_user', JSON.stringify(user)); }
+            function getAuthUser(){ try { return JSON.parse(localStorage.getItem('palestra_auth_user') || 'null'); } catch(e){ return null; } }
+            function clearAuth(){ localStorage.removeItem('palestra_auth_user'); }
+
+            function openModal(sel){ const el = qs(sel); if(!el) return; el.style.display = 'block'; }
+            function closeModal(sel){ const el = qs(sel); if(!el) return; el.style.display = 'none'; }
+
+            function updateAuthUI(){
+                const user = getAuthUser();
+                const navLogin = qs('#navLoginBtn');
+                const navSignup = qs('#navSignupBtn');
+                const profileBtn = qs('#profileBtn');
+                const logoutBtn = qs('#logoutBtn');
+                const accountToggle = qs('#userBtn span');
+                if(user){
+                    if(navLogin) navLogin.style.display = 'none';
+                    if(navSignup) navSignup.style.display = 'none';
+                    if(profileBtn) profileBtn.style.display = '';
+                    if(logoutBtn) logoutBtn.style.display = '';
+                    if(accountToggle) accountToggle.textContent = user.name ? user.name : 'Account';
+                } else {
+                    if(navLogin) navLogin.style.display = '';
+                    if(navSignup) navSignup.style.display = '';
+                    if(profileBtn) profileBtn.style.display = 'none';
+                    if(logoutBtn) logoutBtn.style.display = 'none';
+                    if(accountToggle) accountToggle.textContent = 'Account';
+                }
+            }
+
+            // Wire navbar buttons
+            const navLoginBtn = qs('#navLoginBtn');
+            const navSignupBtn = qs('#navSignupBtn');
+            if(navLoginBtn) navLoginBtn.addEventListener('click', (e)=>{ e.preventDefault(); openModal('#authLoginModal'); });
+            if(navSignupBtn) navSignupBtn.addEventListener('click', (e)=>{ e.preventDefault(); openModal('#authSignupModal'); });
+
+            // Wire dropdown buttons (existing)
+            const ddLoginBtn = qs('#loginBtn');
+            const ddSignupBtn = qs('#signupBtn');
+            if(ddLoginBtn) ddLoginBtn.addEventListener('click', (e)=>{ e.preventDefault(); openModal('#authLoginModal'); });
+            if(ddSignupBtn) ddSignupBtn.addEventListener('click', (e)=>{ e.preventDefault(); openModal('#authSignupModal'); });
+
+            // Close handlers
+            qsa('.close-modal').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const sel = btn.getAttribute('data-close');
+                    if(sel) closeModal(sel); else btn.closest('.modal')?.style && (btn.closest('.modal').style.display='none');
+                });
+            });
+            window.addEventListener('click', (e) => {
+                if(e.target && e.target.classList && e.target.classList.contains('modal')){
+                    e.target.style.display = 'none';
+                }
+            });
+
+            // Helpers
+            async function apiPost(path, body){
+                const res = await fetch(`${API_BASE}${path}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body)
+                });
+                const data = await res.json().catch(()=>({}));
+                if(!res.ok) throw new Error(data.error || 'Request failed');
+                return data;
+            }
+
+            // Signup (calls backend)
+            const signupSubmit = qs('#signupSubmit');
+            if(signupSubmit) signupSubmit.addEventListener('click', () => {
+                const name = (qs('#signupName').value || '').trim();
+                const email = (qs('#signupEmail').value || '').trim().toLowerCase();
+                const password = (qs('#signupPassword').value || '').trim();
+                const err = qs('#signupError');
+                if(err) { err.style.display = 'none'; err.textContent = ''; }
+                if(!name || !email || !password){ if(err){err.textContent='All fields are required.'; err.style.display='block';} return; }
+                if(password.length < 6){ if(err){err.textContent='Password must be at least 6 characters.'; err.style.display='block';} return; }
+                apiPost('/signup', { name, email, password })
+                    .then(({ token, user }) => {
+                        setAuthUser({ ...user, token });
+                        closeModal('#authSignupModal');
+                        updateAuthUI();
+                    })
+                    .catch((e) => { if(err){ err.textContent = e.message; err.style.display='block'; } });
+            });
+
+            // Login (calls backend)
+            const loginSubmit = qs('#loginSubmit');
+            if(loginSubmit) loginSubmit.addEventListener('click', () => {
+                const email = (qs('#loginEmail').value || '').trim().toLowerCase();
+                const password = (qs('#loginPassword').value || '').trim();
+                const err = qs('#loginError');
+                if(err) { err.style.display = 'none'; err.textContent = ''; }
+                if(!email || !password){ if(err){err.textContent='Email and password are required.'; err.style.display='block';} return; }
+                apiPost('/login', { email, password })
+                    .then(({ token, user }) => {
+                        setAuthUser({ ...user, token });
+                        closeModal('#authLoginModal');
+                        updateAuthUI();
+                    })
+                    .catch((e) => { if(err){ err.textContent = e.message; err.style.display='block'; } });
+            });
+
+            // Profile & Logout
+            const profileBtn = qs('#profileBtn');
+            if(profileBtn) profileBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const u = getAuthUser();
+                if(u) alert(`Profile\nName: ${u.name}\nEmail: ${u.email}`);
+            });
+            const logoutBtn = qs('#logoutBtn');
+            if(logoutBtn) logoutBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                clearAuth();
+                updateAuthUI();
+            });
+
+            // Initialize
+            updateAuthUI();
+        })();
+    </script>
+</body>
+</html>
